@@ -1,6 +1,6 @@
-<h2>hello this is the index of posts</h2>
+<h2>Index of Posts / Dojo_Gram</h2>
 
 <%= @posts.each do |post| %>
-	<%=image_tag post.image.url(:medium)%>
-	<%=post.caption%>
+	<%=image_tag post.image.url(:medium)%><br/>
+	<%=post.caption%><br/></br>
 <% end %>

@@ -6,6 +6,7 @@ gem 'rails', '4.2.5.1'
 gem 'hirb'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
