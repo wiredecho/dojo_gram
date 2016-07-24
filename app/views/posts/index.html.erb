@@ -1,2 +1,6 @@
 <h2>hello this is the index of posts</h2>
 
+<%= @posts.each do |post| %>
+	<%=image_tag post.image.url(:medium)%>
+	<%=post.caption%>
+<% end %>
